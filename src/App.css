@@ -1,0 +1,46 @@
+/* src/TodoList.css */
+.todo-list {
+	max-width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	color: #333;
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 8px;
+	margin: 8px 0;
+}
+
+.tasks {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.task {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid #ddd;
+	padding: 8px 16px;
+	margin: 8px 0;
+	width: 100%;
+}
+
+button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 4px 8px;
+	margin-left: 8px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #555;
+}
